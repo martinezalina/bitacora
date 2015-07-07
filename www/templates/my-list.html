@@ -1,0 +1,42 @@
+<ion-side-menus>
+  <ion-side-menu-content>
+    
+    <ion-header-bar class="bar-dark">
+      <button class="button button-icon" ng-click="toggleProjects()">
+        <i class="icon ion-navicon"></i>
+      </button>
+      <h1 class="title" ng-click="showActions()">{{activeTrip.title}}</h1>
+      <button class="button button-small" ng-click="newPost()">Nuevo</button>
+    </ion-header-bar>      
+    
+    <ion-content>
+      <div class="list">
+        <div ng-repeat="post in activeTrip.posts" 
+          ng-click="viewPost($index, post)"
+           class="item item-thumbnail-left">
+          <img ng-src="{{post.myPic}}" class="principal">
+          <span class="fecha2">{{post.createDate | date:'dd.MM.yyyy HH:mm'}}hs</span>
+          <h2>{{post.comentario}}</h2>
+        </div>
+      </div>
+    </ion-content>
+  </ion-side-menu-content>
+  
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Viajes</h1>
+      <button class="button button-small" ng-click="newTrip()">
+        <i class="icon ion-plus"></i>
+      </button>
+    </ion-header-bar>
+    <ion-content scroll="false">
+      <ion-list>
+        <ion-item class="item item-icon-right" ng-repeat="trip in bitacora" ng-class="{active: activeTrip == trip}">
+          <span ng-click="selectTrip(trip, $index)">{{trip.title}}</span>
+          <i class="icon ion-edit" ng-click="editTrip($index, trip)"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+
+</ion-side-menus>

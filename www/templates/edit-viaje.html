@@ -1,0 +1,23 @@
+<div class="modal">
+  <!-- Modal header bar -->
+  <ion-header-bar class="bar-secondary">
+    <h1 class="title">Editar Viaje</h1>
+    <button class="button button-clear button-positive" ng-click="closeEditTrip()">Cancel</button>
+  </ion-header-bar>
+  <!-- Modal content area -->
+  <ion-content>
+    <form ng-submit="updateTrip(tripIndex, trip)">
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="Nombre" ng-model="trip.title">
+        </label>
+      </div>
+      <div class="padding">
+        <button type="submit" class="button button-block button-positive">Actualizar Viaje</button>
+      </div>
+      <div class="padding">
+        <button class="button button-block button-assertive" ng-click="deleteTrip(tripIndex, trip)">Borrar Viaje</button>
+      </div>
+    </form>
+  </ion-content>
+</div>

@@ -1,0 +1,45 @@
+ <div class="modal detalle">
+    <!-- Modal header bar -->
+    <ion-header-bar class="bar-dark">
+      <button class="button button-small" ng-click="closeViewPost()">Volver</button>
+      <h1 class="title">Detalle</h1>
+      <button class="button button-small button-balanced" ng-click="shareAnywhere()">Share</button>
+    </ion-header-bar>
+    <!-- Modal content area -->
+    <ion-content>
+	  
+
+    <div class="padding">
+      <div class="fecha">{{post.createDate | date:'dd.MM.yyyy HH:mm'}}hs <span class="ubicacion2"> en {{post.ubicacion}}</span>
+      </div>
+      
+    </div>
+    
+    <div class="padding">
+      
+      <p class="comentario">{{post.comentario}}</p>
+      <img ng-src="{{post.myPic}}" style="width: 100%">
+      <h3>Ubicación</h3>
+      
+      <div id="map-canvas"></div>
+
+
+
+      <map on-create="mapCreated(map)"></map>
+
+
+
+
+    </div>
+  	<div class="padding">
+        <button  class="button button-small button-assertive" 
+        ng-click="deletePost(postIndex, post)">Borrar Post</button>
+        <button  class="button button-small button-positive" 
+        ng-click="editPost(postIndex, post)">Editar Post</button>
+        <button  class="button button-small button-positive" 
+        ng-click="getPhoto(postIndex, post)">Agregar Img</button>
+    </div>
+    </ion-content>
+    
+
+  </div>

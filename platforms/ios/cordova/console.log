@@ -1,0 +1,196 @@
+2015-07-06 02:29:33.080 bitApp[5097:116236] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/24A80BC2-5A67-4936-9A8C-7C17EAEB0DC8/Library/Cookies/Cookies.binarycookies
+2015-07-06 02:29:33.561 bitApp[5097:116236] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 02:29:33.561 bitApp[5097:116236] Multi-tasking -> Device: YES, App: YES
+2015-07-06 02:29:33.586 bitApp[5097:116236] Unlimited access to network resources
+2015-07-06 02:29:34.964 bitApp[5097:116236] [CDVTimer][keyboard] 0.066042ms
+2015-07-06 02:29:35.318 bitApp[5097:116236] [CDVTimer][splashscreen] 353.829026ms
+2015-07-06 02:29:35.351 bitApp[5097:116236] [CDVTimer][file] 33.137977ms
+2015-07-06 02:29:35.351 bitApp[5097:116236] [CDVTimer][TotalPluginStartup] 387.917995ms
+2015-07-06 02:29:35.972 bitApp[5097:116236] Resetting plugins due to page load.
+2015-07-06 02:29:39.767 bitApp[5097:116236] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/7D30BD3E-BDC9-4CF0-83C8-3F64F2140E32/bitApp.app/www/index.html#/
+2015-07-06 02:29:53.759 bitApp[5097:116236] Getting camera
+2015-07-06 02:29:53.808 bitApp[5097:116236] THREAD WARNING: ['Camera'] took '49.246094' ms. Plugin should use a background thread.
+2015-07-06 02:29:53.808 bitApp[5097:116521] Camera.getPicture: source type 1 not available.
+2015-07-06 02:30:04.107 bitApp[5097:116236] Getting camera
+2015-07-06 02:30:04.107 bitApp[5097:116521] Camera.getPicture: source type 1 not available.
+2015-07-06 02:30:04.516 bitApp[5097:116236] Getting camera
+2015-07-06 02:30:04.516 bitApp[5097:116521] Camera.getPicture: source type 1 not available.
+2015-07-06 02:30:04.887 bitApp[5097:116236] Getting camera
+2015-07-06 02:30:04.888 bitApp[5097:116521] Camera.getPicture: source type 1 not available.
+2015-07-06 02:31:13.538 bitApp[5097:116236] Getting camera
+2015-07-06 02:31:13.539 bitApp[5097:117110] Camera.getPicture: source type 1 not available.
+2015-07-06 02:34:23.854 bitApp[5097:116236] Getting camera
+2015-07-06 02:34:23.854 bitApp[5097:117885] Camera.getPicture: source type 1 not available.
+2015-07-06 02:35:54.771 bitApp[5410:119075] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/3B388F9B-65F4-4A6E-9810-771FE07E9719/Library/Cookies/Cookies.binarycookies
+2015-07-06 02:35:54.858 bitApp[5410:119075] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 02:35:54.859 bitApp[5410:119075] Multi-tasking -> Device: YES, App: YES
+2015-07-06 02:35:54.879 bitApp[5410:119075] Unlimited access to network resources
+2015-07-06 02:35:54.979 bitApp[5410:119075] [CDVTimer][keyboard] 0.115037ms
+2015-07-06 02:35:54.997 bitApp[5410:119075] [CDVTimer][splashscreen] 17.598987ms
+2015-07-06 02:35:55.000 bitApp[5410:119075] [CDVTimer][file] 2.583027ms
+2015-07-06 02:35:55.000 bitApp[5410:119075] [CDVTimer][TotalPluginStartup] 21.001995ms
+2015-07-06 02:35:55.054 bitApp[5410:119075] Resetting plugins due to page load.
+2015-07-06 02:35:55.310 bitApp[5410:119075] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/5F832936-56FD-4D58-95B7-F19C7A7F0B30/bitApp.app/www/index.html#/
+2015-07-06 02:36:00.452 bitApp[5410:119075] post.title
+2015-07-06 02:36:00.452 bitApp[5410:119084] Camera.getPicture: source type 1 not available.
+2015-07-06 02:36:07.808 bitApp[5410:119075] post.title
+2015-07-06 02:36:07.808 bitApp[5410:119079] Camera.getPicture: source type 1 not available.
+2015-07-06 02:36:15.969 bitApp[5410:119075] post.title
+2015-07-06 02:36:15.969 bitApp[5410:119079] Camera.getPicture: source type 1 not available.
+2015-07-06 02:36:50.578 bitApp[5698:120205] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/64D9C3F1-6CF2-4314-B190-DF460AB6B24C/Library/Cookies/Cookies.binarycookies
+2015-07-06 02:36:50.718 bitApp[5698:120205] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 02:36:50.718 bitApp[5698:120205] Multi-tasking -> Device: YES, App: YES
+2015-07-06 02:36:50.734 bitApp[5698:120205] Unlimited access to network resources
+2015-07-06 02:36:50.848 bitApp[5698:120205] [CDVTimer][keyboard] 0.089049ms
+2015-07-06 02:36:50.863 bitApp[5698:120205] [CDVTimer][splashscreen] 15.353978ms
+2015-07-06 02:36:50.866 bitApp[5698:120205] [CDVTimer][file] 2.888024ms
+2015-07-06 02:36:50.867 bitApp[5698:120205] [CDVTimer][TotalPluginStartup] 19.022048ms
+2015-07-06 02:36:50.931 bitApp[5698:120205] Resetting plugins due to page load.
+2015-07-06 02:36:51.282 bitApp[5698:120205] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/D45F0CD0-7841-4842-A57C-065517302946/bitApp.app/www/index.html#/
+2015-07-06 02:36:54.535 bitApp[5698:120205] jhjhjh
+2015-07-06 02:36:54.535 bitApp[5698:120210] Camera.getPicture: source type 1 not available.
+2015-07-06 02:36:58.969 bitApp[5698:120205] jhjhjh
+2015-07-06 02:36:58.969 bitApp[5698:120210] Camera.getPicture: source type 1 not available.
+2015-07-06 02:37:00.198 bitApp[5698:120205] jhjhjh
+2015-07-06 02:37:00.199 bitApp[5698:120210] Camera.getPicture: source type 1 not available.
+2015-07-06 02:37:01.078 bitApp[5698:120205] jhjhjh
+2015-07-06 02:37:01.078 bitApp[5698:120210] Camera.getPicture: source type 1 not available.
+2015-07-06 02:37:01.389 bitApp[5698:120205] jhjhjh
+2015-07-06 02:37:01.389 bitApp[5698:120210] Camera.getPicture: source type 1 not available.
+2015-07-06 02:37:01.700 bitApp[5698:120205] jhjhjh
+2015-07-06 02:37:01.700 bitApp[5698:120210] Camera.getPicture: source type 1 not available.
+2015-07-06 02:38:11.541 bitApp[5698:120205] jhjhjh
+2015-07-06 02:38:11.541 bitApp[5698:120737] Camera.getPicture: source type 1 not available.
+2015-07-06 02:38:14.248 bitApp[5698:120205] jhjhjh
+2015-07-06 02:38:14.249 bitApp[5698:120737] Camera.getPicture: source type 1 not available.
+2015-07-06 02:38:32.939 bitApp[5988:121703] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/C3EC2426-95CD-472D-BE2D-24D6B4826A53/Library/Cookies/Cookies.binarycookies
+2015-07-06 02:38:33.028 bitApp[5988:121703] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 02:38:33.029 bitApp[5988:121703] Multi-tasking -> Device: YES, App: YES
+2015-07-06 02:38:33.046 bitApp[5988:121703] Unlimited access to network resources
+2015-07-06 02:38:33.166 bitApp[5988:121703] [CDVTimer][keyboard] 0.108957ms
+2015-07-06 02:38:33.181 bitApp[5988:121703] [CDVTimer][splashscreen] 15.500009ms
+2015-07-06 02:38:33.184 bitApp[5988:121703] [CDVTimer][file] 2.626002ms
+2015-07-06 02:38:33.184 bitApp[5988:121703] [CDVTimer][TotalPluginStartup] 18.801033ms
+2015-07-06 02:38:33.243 bitApp[5988:121703] Resetting plugins due to page load.
+2015-07-06 02:38:33.535 bitApp[5988:121703] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/6A8C22D2-41D9-4365-914F-097694693CD7/bitApp.app/www/index.html#/
+2015-07-06 02:39:53.591 bitApp[6284:122996] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/1F97E8AC-6792-4AE9-BDB6-B9F97EB7657A/Library/Cookies/Cookies.binarycookies
+2015-07-06 02:39:53.708 bitApp[6284:122996] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 02:39:53.708 bitApp[6284:122996] Multi-tasking -> Device: YES, App: YES
+2015-07-06 02:39:53.710 bitApp[6284:122996] Unlimited access to network resources
+2015-07-06 02:39:53.823 bitApp[6284:122996] [CDVTimer][keyboard] 0.082016ms
+2015-07-06 02:39:53.842 bitApp[6284:122996] [CDVTimer][splashscreen] 18.613040ms
+2015-07-06 02:39:53.845 bitApp[6284:122996] [CDVTimer][file] 2.645016ms
+2015-07-06 02:39:53.845 bitApp[6284:122996] [CDVTimer][TotalPluginStartup] 21.963000ms
+2015-07-06 02:39:53.910 bitApp[6284:122996] Resetting plugins due to page load.
+2015-07-06 02:39:54.244 bitApp[6284:122996] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/F0ED7141-C8E8-40BF-BE7A-DBA61EC895CA/bitApp.app/www/index.html#/
+2015-07-06 02:40:02.152 bitApp[6284:122996] jhjhjh
+2015-07-06 02:40:02.153 bitApp[6284:122996] 0
+2015-07-06 02:40:02.153 bitApp[6284:122998] Camera.getPicture: source type 1 not available.
+2015-07-06 02:40:05.670 bitApp[6284:122996] jhjhjh
+2015-07-06 02:40:05.671 bitApp[6284:122996] 0
+2015-07-06 02:40:05.671 bitApp[6284:122998] Camera.getPicture: source type 1 not available.
+2015-07-06 02:40:06.594 bitApp[6284:122996] jhjhjh
+2015-07-06 02:40:06.594 bitApp[6284:122996] 0
+2015-07-06 02:40:06.594 bitApp[6284:122998] Camera.getPicture: source type 1 not available.
+2015-07-06 03:18:49.654 bitApp[7082:137273] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/9605427C-D5DC-49C7-9225-09B34CFBFB8D/Library/Cookies/Cookies.binarycookies
+2015-07-06 03:18:51.639 bitApp[7082:137273] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 03:18:51.640 bitApp[7082:137273] Multi-tasking -> Device: YES, App: YES
+2015-07-06 03:18:51.761 bitApp[7082:137273] Unlimited access to network resources
+2015-07-06 03:18:51.964 bitApp[7082:137273] [CDVTimer][keyboard] 0.468016ms
+2015-07-06 03:18:52.016 bitApp[7082:137273] [CDVTimer][splashscreen] 50.997972ms
+2015-07-06 03:18:52.036 bitApp[7082:137273] [CDVTimer][file] 20.462036ms
+2015-07-06 03:18:52.036 bitApp[7082:137273] [CDVTimer][TotalPluginStartup] 72.465003ms
+2015-07-06 03:18:52.251 bitApp[7082:137273] Resetting plugins due to page load.
+2015-07-06 03:18:52.896 bitApp[7082:137273] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/783FDD84-06FC-44FE-8A72-457A9C3F0F6D/bitApp.app/www/index.html#/
+2015-07-06 03:34:56.824 bitApp[7705:144727] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/E44F2E89-892B-4F3D-A594-D45E90C40DC6/Library/Cookies/Cookies.binarycookies
+2015-07-06 03:34:56.946 bitApp[7705:144727] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 03:34:56.946 bitApp[7705:144727] Multi-tasking -> Device: YES, App: YES
+2015-07-06 03:34:56.959 bitApp[7705:144727] Unlimited access to network resources
+2015-07-06 03:34:57.069 bitApp[7705:144727] [CDVTimer][keyboard] 0.117004ms
+2015-07-06 03:34:57.088 bitApp[7705:144727] [CDVTimer][splashscreen] 18.391967ms
+2015-07-06 03:34:57.091 bitApp[7705:144727] [CDVTimer][file] 2.488017ms
+2015-07-06 03:34:57.091 bitApp[7705:144727] [CDVTimer][TotalPluginStartup] 21.669984ms
+2015-07-06 03:34:57.177 bitApp[7705:144727] Resetting plugins due to page load.
+2015-07-06 03:34:57.691 bitApp[7705:144727] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/DFCC6711-7523-4FFA-ABE9-9081472049CE/bitApp.app/www/index.html#/
+2015-07-06 03:35:03.194 bitApp[7705:144727] start deleting
+2015-07-06 03:35:04.239 bitApp[7705:144727] confirmed to delete post 0
+2015-07-06 03:35:07.922 bitApp[7705:144727] start deleting
+2015-07-06 03:35:09.115 bitApp[7705:144727] confirmed to delete trip and all its posts 0
+2015-07-06 03:35:32.013 bitApp[7995:145801] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/8AEDD5DD-20B1-44B9-96FA-27C58EDB1B53/Library/Cookies/Cookies.binarycookies
+2015-07-06 03:35:32.125 bitApp[7995:145801] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 03:35:32.125 bitApp[7995:145801] Multi-tasking -> Device: YES, App: YES
+2015-07-06 03:35:32.139 bitApp[7995:145801] Unlimited access to network resources
+2015-07-06 03:35:32.254 bitApp[7995:145801] [CDVTimer][keyboard] 0.108004ms
+2015-07-06 03:35:32.269 bitApp[7995:145801] [CDVTimer][splashscreen] 14.248013ms
+2015-07-06 03:35:32.270 bitApp[7995:145801] [CDVTimer][file] 1.760006ms
+2015-07-06 03:35:32.271 bitApp[7995:145801] [CDVTimer][TotalPluginStartup] 16.646981ms
+2015-07-06 03:35:32.359 bitApp[7995:145801] Resetting plugins due to page load.
+2015-07-06 03:35:33.080 bitApp[7995:145801] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/4D6F01B3-ABDF-445D-B200-83477A4F26FB/bitApp.app/www/index.html#/
+2015-07-06 03:35:50.722 bitApp[7995:145801] mhj
+2015-07-06 03:35:50.759 bitApp[7995:145801] THREAD WARNING: ['Camera'] took '37.072998' ms. Plugin should use a background thread.
+2015-07-06 03:35:50.760 bitApp[7995:145803] Camera.getPicture: source type 1 not available.
+2015-07-06 15:26:11.853 bitApp[3110:72938] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/78EBB0F3-4195-4970-B375-F999CCF4E767/Library/Cookies/Cookies.binarycookies
+2015-07-06 15:26:12.305 bitApp[3110:72938] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 15:26:12.305 bitApp[3110:72938] Multi-tasking -> Device: YES, App: YES
+2015-07-06 15:26:12.352 bitApp[3110:72938] Unlimited access to network resources
+2015-07-06 15:26:13.536 bitApp[3110:72938] [CDVTimer][keyboard] 0.072002ms
+2015-07-06 15:26:13.798 bitApp[3110:72938] [CDVTimer][splashscreen] 261.752009ms
+2015-07-06 15:26:13.826 bitApp[3110:72938] [CDVTimer][file] 27.664959ms
+2015-07-06 15:26:13.899 bitApp[3110:72938] [CDVTimer][socialsharing] 73.589027ms
+2015-07-06 15:26:13.899 bitApp[3110:72938] [CDVTimer][TotalPluginStartup] 363.776028ms
+2015-07-06 15:26:14.100 bitApp[3110:72938] Resetting plugins due to page load.
+2015-07-06 15:26:15.041 bitApp[3110:72938] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/8C2003E7-168C-4567-B85C-487B0FD1C9D9/bitApp.app/www/index.html#/
+2015-07-06 15:26:29.009 bitApp[3110:72938] THREAD WARNING: ['SocialSharing'] took '140.398926' ms. Plugin should use a background thread.
+2015-07-06 15:39:46.389 bitApp[3802:78471] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/0A77085B-C431-46FA-B32E-FDF5053377D2/Library/Cookies/Cookies.binarycookies
+2015-07-06 15:39:46.516 bitApp[3802:78471] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 15:39:46.517 bitApp[3802:78471] Multi-tasking -> Device: YES, App: YES
+2015-07-06 15:39:46.529 bitApp[3802:78471] Unlimited access to network resources
+2015-07-06 15:39:46.642 bitApp[3802:78471] [CDVTimer][keyboard] 0.055015ms
+2015-07-06 15:39:46.657 bitApp[3802:78471] [CDVTimer][splashscreen] 15.730977ms
+2015-07-06 15:39:46.659 bitApp[3802:78471] [CDVTimer][file] 1.716018ms
+2015-07-06 15:39:46.704 bitApp[3802:78471] [CDVTimer][socialsharing] 44.272959ms
+2015-07-06 15:39:46.704 bitApp[3802:78471] [CDVTimer][TotalPluginStartup] 62.344968ms
+2015-07-06 15:39:46.789 bitApp[3802:78471] Resetting plugins due to page load.
+2015-07-06 15:39:47.064 bitApp[3802:78471] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/CD73A27C-264B-4A73-A258-42DBF7AA862C/bitApp.app/www/index.html#/
+2015-07-06 15:40:28.028 bitApp[3802:78471] init latlng
+2015-07-06 15:40:37.707 bitApp[3802:78471] init latlng
+2015-07-06 15:40:47.909 bitApp[3802:78471] hghg
+2015-07-06 15:40:47.943 bitApp[3802:78471] THREAD WARNING: ['Camera'] took '33.342285' ms. Plugin should use a background thread.
+2015-07-06 15:40:47.943 bitApp[3802:78826] Camera.getPicture: source type 1 not available.
+2015-07-06 15:40:49.848 bitApp[3802:78471] hghg
+2015-07-06 15:40:49.848 bitApp[3802:78826] Camera.getPicture: source type 1 not available.
+2015-07-06 15:40:50.032 bitApp[3802:78471] hghg
+2015-07-06 15:40:50.033 bitApp[3802:78826] Camera.getPicture: source type 1 not available.
+2015-07-06 15:40:50.248 bitApp[3802:78471] hghg
+2015-07-06 15:40:50.248 bitApp[3802:78826] Camera.getPicture: source type 1 not available.
+2015-07-06 15:41:13.647 bitApp[3802:78867] plugin com.apple.share.Facebook.post invalidated
+2015-07-06 16:04:50.337 bitApp[5149:88349] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/82E864C5-AEE0-40F0-A83B-FDAFB14E3951/Library/Cookies/Cookies.binarycookies
+2015-07-06 16:04:50.470 bitApp[5149:88349] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 16:04:50.471 bitApp[5149:88349] Multi-tasking -> Device: YES, App: YES
+2015-07-06 16:04:50.474 bitApp[5149:88349] Unlimited access to network resources
+2015-07-06 16:04:50.588 bitApp[5149:88349] [CDVTimer][keyboard] 0.110030ms
+2015-07-06 16:04:50.602 bitApp[5149:88349] [CDVTimer][splashscreen] 13.194025ms
+2015-07-06 16:04:50.605 bitApp[5149:88349] [CDVTimer][file] 2.867997ms
+2015-07-06 16:04:50.656 bitApp[5149:88349] [CDVTimer][socialsharing] 51.227987ms
+2015-07-06 16:04:50.656 bitApp[5149:88349] [CDVTimer][TotalPluginStartup] 68.466961ms
+2015-07-06 16:04:50.746 bitApp[5149:88349] Resetting plugins due to page load.
+2015-07-06 16:04:52.208 bitApp[5149:88349] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/9D5964E4-EA3C-47E4-846D-7D975CAEEE35/bitApp.app/www/index.html#/
+2015-07-06 16:04:56.152 bitApp[5149:88349] THREAD WARNING: ['SocialSharing'] took '154.891846' ms. Plugin should use a background thread.
+2015-07-06 16:16:35.334 bitApp[5149:88349] init latlng
+2015-07-06 16:25:29.947 bitApp[5879:96013] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/37C18376-E0D2-4705-AB5C-C8A0CCC57359/Library/Cookies/Cookies.binarycookies
+2015-07-06 16:25:30.075 bitApp[5879:96013] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-06 16:25:30.076 bitApp[5879:96013] Multi-tasking -> Device: YES, App: YES
+2015-07-06 16:25:30.079 bitApp[5879:96013] Unlimited access to network resources
+2015-07-06 16:25:30.202 bitApp[5879:96013] [CDVTimer][keyboard] 0.086010ms
+2015-07-06 16:25:30.219 bitApp[5879:96013] [CDVTimer][splashscreen] 16.084969ms
+2015-07-06 16:25:30.222 bitApp[5879:96013] [CDVTimer][file] 2.690971ms
+2015-07-06 16:25:30.266 bitApp[5879:96013] [CDVTimer][socialsharing] 43.778956ms
+2015-07-06 16:25:30.266 bitApp[5879:96013] [CDVTimer][TotalPluginStartup] 63.446999ms
+2015-07-06 16:25:30.345 bitApp[5879:96013] Resetting plugins due to page load.
+2015-07-06 16:25:33.392 bitApp[5879:96013] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/BC8DC6F4-CDD5-4A8E-A7B9-85ADD3DE2D56/bitApp.app/www/index.html#/
+2015-07-06 16:25:49.793 bitApp[5879:96017] Camera.getPicture: source type 1 not available.
+2015-07-06 16:26:01.155 bitApp[5879:96013] jjjj
+2015-07-06 16:26:01.156 bitApp[5879:96017] Camera.getPicture: source type 1 not available.
+2015-07-06 16:26:02.574 bitApp[5879:96013] jjjj
+2015-07-06 16:26:02.575 bitApp[5879:96017] Camera.getPicture: source type 1 not available.
+2015-07-06 16:30:31.501 bitApp[5879:98194] Terminating since there is no system app.

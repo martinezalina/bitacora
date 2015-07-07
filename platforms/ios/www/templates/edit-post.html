@@ -1,0 +1,29 @@
+<div class="modal">
+  <!-- Modal header bar -->
+  <ion-header-bar class="bar-secondary">
+    <h1 class="title">Actualizar Post</h1>
+    <button class="button button-clear button-positive" ng-click="closeEditPost()">Cancel</button>
+  </ion-header-bar>
+  <!-- Modal content area -->
+  <ion-content>
+    <form name="postForm" ng-submit="updatePost(postIndex, post)" novalidate>  
+      <div class="padding">
+      <div class="form-group" ng-class="{ 'has-error' : postForm.comentario.$invalid}">
+          <textarea name="comentario" class="form-control"  placeholder="Nota..." 
+          rows="4"  ng-model="post.comentario" minlength="3" ng-maxlength="200" required>
+          </textarea>
+          <p ng-show="postForm.comentario.$error.minlength" class="help-block">
+            Error: mínimo 3 caracteres.</p>
+          <p ng-show="postForm.comentario.$error.maxlength" class="help-block">
+            Error: máximo 200 caracteres.</p>
+      </div>
+      </div>
+ 
+      <div class="padding">
+        <button type="submit" ng-disabled="postForm.$invalid" class="button button-block button-positive">Actualizar Post</button>
+        <button class="button button-block button-assertive" ng-click="deletePost(postIndex, post)">Borrar Post</button>
+      </div>
+    </form>
+
+  </ion-content>
+</div>

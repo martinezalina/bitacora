@@ -1,0 +1,32 @@
+<div class="modal">
+
+  <!-- Modal header bar -->
+  <ion-header-bar class="bar-secondary">
+    <h1 class="title">Nuevo Post</h1>
+    <button class="button button-clear button-positive" ng-click="closeNewPost()">Cancel</button>
+  </ion-header-bar>
+
+  <!-- Modal content area -->
+  <ion-content>
+    <form name="postForm" ng-submit="createPost(post)">
+      <div class="padding">
+      <div class="form-group" ng-class="{ 'has-error' : postForm.comentario.$invalid}">
+          <textarea name="comentario" class="form-control"  placeholder="Nueva nota..." 
+          rows="4"  ng-model="post.comentario" minlength="3" ng-maxlength="200" >
+          </textarea>
+          <p ng-show="postForm.comentario.$error.minlength" class="help-block">
+            Error: mínimo 3 caracteres.</p>
+          <p ng-show="postForm.comentario.$error.maxlength" class="help-block">
+            Error: máximo 200 caracteres.</p>
+      </div>
+      <img ng-src="{{imageURI}}" style="width: 100%">
+      </div>
+      <div class="padding">
+       <!--  -->
+        <button  class="button button-block button-balanced" ng-click="addPhoto()">Agregar Imagen</button> 
+        <button type="submit" class="button button-block button-positive">Crear</button>
+      </div>
+    </form>
+  </ion-content>
+
+</div>
