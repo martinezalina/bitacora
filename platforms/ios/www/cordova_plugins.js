@@ -243,6 +243,13 @@ module.exports = [
         "clobbers": [
             "window.plugins.socialsharing"
         ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.actionsheet/www/ActionSheet.js",
+        "id": "nl.x-services.plugins.actionsheet.ActionSheet",
+        "clobbers": [
+            "window.plugins.actionsheet"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -256,7 +263,8 @@ module.exports.metadata =
     "cordova-plugin-camera": "1.2.0",
     "cordova-plugin-file": "2.1.0",
     "org.apache.cordova.geolocation": "0.3.12",
-    "nl.x-services.plugins.socialsharing": "4.3.19-dev"
+    "nl.x-services.plugins.socialsharing": "4.3.19-dev",
+    "nl.x-services.plugins.actionsheet": "1.1.7"
 }
 // BOTTOM OF METADATA
 });

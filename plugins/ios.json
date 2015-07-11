@@ -43,6 +43,10 @@
                         {
                             "xml": "<feature name=\"SocialSharing\"><param name=\"ios-package\" value=\"SocialSharing\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ActionSheet\"><param name=\"ios-package\" value=\"ActionSheet\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -137,6 +141,9 @@
             "PACKAGE_NAME": "com.ionicframework.bitapp781694"
         },
         "nl.x-services.plugins.socialsharing": {
+            "PACKAGE_NAME": "com.ionicframework.bitapp781694"
+        },
+        "nl.x-services.plugins.actionsheet": {
             "PACKAGE_NAME": "com.ionicframework.bitapp781694"
         }
     },

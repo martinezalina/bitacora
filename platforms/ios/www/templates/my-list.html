@@ -1,23 +1,27 @@
 <ion-side-menus>
   <ion-side-menu-content>
-    
-    <ion-header-bar class="bar-dark">
-      <button class="button button-icon" ng-click="toggleProjects()">
-        <i class="icon ion-navicon"></i>
-      </button>
-      <h1 class="title" ng-click="showActions()">{{activeTrip.title}}</h1>
-      <button class="button button-small" ng-click="newPost()">Nuevo</button>
-    </ion-header-bar>      
+    <ion-header-bar class="bar-positive">
+    <button class="button button-icon" ng-click="toggleProjects()">
+      <i class="icon ion-navicon"></i>
+    </button>  
+    <h1 class="title">Bitácora {{activeTrip.title}}</h1>
+    <a class="button" data-ng-init="getUbicacion()" ng-click="newPost()"><i class="icon ion-plus"></i></a>
+    </ion-header-bar>
     
     <ion-content>
-      <div class="list">
-        <div ng-repeat="post in activeTrip.posts" 
-          ng-click="viewPost($index, post)"
-           class="item item-thumbnail-left">
-          <img ng-src="{{post.myPic}}" class="principal">
-          <span class="fecha2">{{post.createDate | date:'dd.MM.yyyy HH:mm'}}hs</span>
-          <h2>{{post.comentario}}</h2>
+      <div class="list card" ng-repeat="post in activeTrip.posts | orderBy:'-createDate'">
+        <div class="item" ng-click="viewPost($index, post)">
+          <h2 ng-show="{{post.lat}}" class="ng-hide">{{post.ubicacion}}</h2>
+          <p>{{post.createDate | date:'dd.MM.yyyy HH:mm'}}hs</p>
         </div>
+
+        <div ng-show="{{post.tienePic}}" class="item item-image ng-hide" ng-click="viewPost($index, post)">
+          <img src="{{post.myPic}}">
+        </div>
+
+        <a class="item comentario" ng-click="viewPost($index, post)">
+          {{post.comentario}}
+        </a>
       </div>
     </ion-content>
   </ion-side-menu-content>
@@ -25,9 +29,7 @@
   <ion-side-menu side="left">
     <ion-header-bar class="bar-dark">
       <h1 class="title">Viajes</h1>
-      <button class="button button-small" ng-click="newTrip()">
-        <i class="icon ion-plus"></i>
-      </button>
+      <a class="button" ng-click="newTrip()"><i class="icon ion-plus"></i></a>
     </ion-header-bar>
     <ion-content scroll="false">
       <ion-list>

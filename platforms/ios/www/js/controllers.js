@@ -63,33 +63,110 @@ angular.module('bit.controllers', [])
   };
 
 
-  // Called when the form is submitted
+  //Inicia las variales lat, lng, city, country
+  $scope.getUbicacion = function(){
+    var onSuccessGeo = function(position) {
+      $scope.lat = position.coords.latitude;
+      $scope.lng = position.coords.longitude;
+      
+      geocoder = new google.maps.Geocoder();
+      latlng =  new google.maps.LatLng($scope.lat,$scope.lng)
+      geocoder.geocode({'latLng': latlng}, function(results, status) {
+     
+      if (status == google.maps.GeocoderStatus.OK) { // if ok
+        if (results[0]) {
+          var arrAddress = results[0].address_components;
+          arrAddress.forEach(function(address_component) {
+            if (address_component.types[0] == "locality") {
+              $scope.city = address_component.long_name;
+            } else if (address_component.types[0] == "country") {
+              $scope.country = address_component.long_name;
+            }
+          });
+        } else {
+          //No se encontraron ciudades
+          $scope.lat = "";
+          $scope.lng = "";
+          $scope.city = "";
+          $scope.country = "";
+        }
+      } else { 
+          //alert('Geocoder falló');
+          $scope.lat = "";
+          $scope.lng = "";
+          $scope.city = "";
+          $scope.country = "";
+      }
+    });
+
+    }; //Fin onSuccessGeo
+    function onErrorGeo(error) {
+      $scope.lat = "";
+      $scope.lng = "";
+      $scope.city = "";
+      $scope.country = "";
+      alert('Unable to get location: ' + error.message);
+    }
+    navigator.geolocation.getCurrentPosition(onSuccessGeo, onErrorGeo);
+  }
+
+  // Called when Form is submitted
   $scope.createPost = function(post) {
     if (!$scope.activeTrip || !post) {
       return;
     }
-    
+    var ubicacion = '';
+    if($scope.city){
+        if($scope.country){
+          ubicacion = $scope.city +', '+$scope.country;
+        }
+        else{
+          ubicacion = $scope.city;
+        }
+    }
+    else{
+      if($scope.country){ ubicacion = $scope.country;}
+      else{ ubicacion = '';}
+    }
+    var tienePic = false;
+    if($scope.imageURI){tienePic = true;}
+    var tieneMapa = false;
+    if($scope.lat){tieneMapa = true;}
+
     $scope.activeTrip.posts.push({
       comentario: post.comentario,
       createDate: (new Date()).toISOString(),
       lat:$scope.lat,
       lng:$scope.lng,
-      ubicacion:$scope.city +', '+$scope.country,
-      imageURI:$scope.imageURI
+      ubicacion: ubicacion,
+      tienePic:tienePic,
+      tieneMapa:tieneMapa,
+      myPic:$scope.imageURI
     });
     $scope.postModal.hide();
 
     $scope.orderTripPosts($scope.activeTrip);
     Bitacora.save($scope.bitacora);
+    
     post.comentario = "";
-    $scope.imageURI = "";
-    $scope.lat = "";
-    $scope.lng = "";
-    $scope.city = "";
-    $scope.country = "";
+    post.myPic = "";
+    $scope.imageURI ="";
   };
 
-// Called when the form is submitted
+  // Open New PostModal
+  $scope.newPost = function() {
+    $scope.post = {comentario:"", myPic:""};
+    $scope.imageURI = "";
+    //alert('$scope.imageURI in newPost '+$scope.imageURI );
+    $scope.postModal.show();
+  };
+
+  $scope.imageBlank = function(){
+    $scope.imageURI = "";
+  };
+
+
+  // Called when Form is submitted
   $scope.updatePost = function(i, post) {
     if (!$scope.activeTrip || !post) {
       return;
@@ -101,107 +178,65 @@ angular.module('bit.controllers', [])
     Bitacora.save($scope.bitacora);
   };
 
-  // Open our new post modal
-  $scope.newPost = function() {
-    var onSuccessGeo = function(position) {
-      $scope.lat = position.coords.latitude;
-      $scope.lng = position.coords.longitude;
-      //console.log('init latlng')
-
-
-       geocoder = new google.maps.Geocoder();
-
-      latlng =  new google.maps.LatLng($scope.lat,$scope.lng)
-      geocoder.geocode({'latLng': latlng}, function(results, status) {
-     
-      if (status == google.maps.GeocoderStatus.OK) { // Si todo salió bien
-        if (results[0]) {
-          var arrAddress = results[0].address_components;
-          arrAddress.forEach(function(address_component) {
-            if (address_component.types[0] == "locality") {
-              $scope.city = address_component.long_name;
-            } else if (address_component.types[0] == "country") {
-              $scope.country = address_component.long_name;
-            }
-            
-          });
-        } else {
-          // ¡No se encontraron resultados!
-        }
-      } else {
-        // Geocoder falló
-      }
-    });
-
-    };
-    function onErrorGeo(error) {
-       alert('Unable to get location: ' + error.message);
-    }
-    navigator.geolocation.getCurrentPosition(onSuccessGeo, onErrorGeo);
-    
-
-    $scope.post = {comentario:""};
-    $scope.postModal.show();
-  };
-
-  // Open our new post modal
+  // Open Edit PostModal
   $scope.editPost = function(i, post) {
-    $scope.post = {comentario: post.comentario, createDate: post.createDate, lat:post.lat, lng:post.lng, myPic:post.myPic};
+    $scope.post = {
+      comentario: post.comentario, 
+      createDate: post.createDate, 
+      lat:post.lat, 
+      lng:post.lng, 
+      ubicacion:post.ubicacion,
+      tieneMapa:post.tieneMapa,
+      tienePic:post.tienePic,
+      myPic:post.myPic
+    };
     $scope.postIndex = i;
     $scope.editPostModal.show();
   };
 
 
- 
 
 
-  //Mostrar en pagina 
+  //Open View PostModal 
   $scope.viewPost =  function(i, post) {
-      $scope.post = {comentario: post.comentario, createDate: post.createDate, lat:post.lat, lng:post.lng, myPic:post.myPic};
+      $scope.post = {
+        comentario: post.comentario,
+        createDate: post.createDate, 
+        ubicacion: post.ubicacion,
+        tieneMapa:post.tieneMapa,
+        lat:post.lat, lng:post.lng,
+        tienePic: post.tienePic, 
+        myPic:post.myPic
+      };
       $scope.postIndex = i;
  
-     
-     
       $scope.viewPostModal.show();
+    
+
+
+      var myLatlng = new google.maps.LatLng(post.lat,post.lng);
+      var mapOptions = {
+        zoom: 16,
+        center: myLatlng
+      }
+      /*
       var mapOptions = {
         center: { lat: post.lat, lng:post.lng}, zoom: 14
       };
+      */
       var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
+
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+          title:"Aqui"
+      });
+
+      // To add the marker to the map, call setMap();
+      marker.setMap(map);
   };
 
-
-  
-
-  // A confirm dialog delete post
-  $scope.showConfirm = function(onYes, onNo) {
-   var confirmPopup = $ionicPopup.confirm({
-     title: 'Borrar Post',
-     template: 'Estas seguro?'
-   });
-   confirmPopup.then(function(res) {
-     if(res) {
-       onYes();
-     } else {
-       if (onNo)
-        onNo();
-     }
-   });
-  };
-
-  // delete selected post
-  $scope.deletePost = function(i, post) {
-    if (!$scope.activeTrip || !post ) {
-      return;
-    }
-    console.log("start deleting");
-    $scope.showConfirm(function() {
-      console.log("confirmed to delete post "+i);
-      $scope.activeTrip.posts.splice(i,1);
-      Bitacora.save($scope.bitacora);
-    });
-    $scope.viewPostModal.hide();
-  } 
+   
 
   // Close the new post modal
   $scope.closeNewPost = function() {
@@ -262,23 +297,23 @@ angular.module('bit.controllers', [])
       return;
     }
     console.log("start deleting");
-    $scope.showConfirm('Borrar Viaje', 'Estas seguro?',function() {
+    $scope.showConfirm('Eliminar', 'Estas seguro/a que deseas borrar el viaje?',function() {
       console.log("confirmed to delete trip and all its posts "+i);
       $scope.bitacora.splice(i,1);
       Bitacora.save($scope.bitacora);
     });
   };
 
-  // delete selected post
+  // Delete selected post
   $scope.deletePost = function(i, post) {
     if (!$scope.activeTrip || !post ) {
       return;
     }
-    console.log("start deleting");
-    $scope.showConfirm('Borrar Post', 'Estas seguro?', function() {
+    console.log("start deleting post");
+    $scope.showConfirm('Eliminar', 'Estás seguro/a que deseas borrar la nota?', function() {
       console.log("confirmed to delete post "+i);
       $scope.viewPostModal.hide();
-      $scope.activvieTrip.posts.splice(i,1);
+      $scope.activeTrip.posts.splice(i,1);
       Bitacora.save($scope.bitacora);
     }); 
   };
@@ -316,13 +351,9 @@ angular.module('bit.controllers', [])
       targetHeight: 320,
       saveToPhotoAlbum: true
     }).then(function(imageURI) {
-      console.log(imageURI);
-      //$scope.lastPhoto = imageURI;
-      
       $scope.activeTrip.posts[i].myPic = imageURI;
-      
       Bitacora.save($scope.bitacora);
-    }, function(err) {
+    },function(err) {
       console.err(err);
     });
     //$scope.viewPostModal.hide();
@@ -346,13 +377,88 @@ angular.module('bit.controllers', [])
 
 
   /* Share */
+
   $scope.shareAnywhere = function() {
-    var message = $scope.post.comentario;
-    var image = $scope.post.myPic;
-    var link = "";
-    $cordovaSocialSharing.share(message, image, link);
+    $cordovaSocialSharing.share($scope.post.comentario, "Bitácora de Viaje", $scope.post.myPic, "");
   }
+
+
   /******/
+
+// Triggered on a button click, or some other target
+ $scope.shareAla = function() {
+   // Show the action sheet
+   var hideSheet = $ionicActionSheet.show({
+     buttons: [
+       { text: '<b>Share</b> via Twitter' },
+       { text: '<b>Share</b> via Facebook' },
+       { text: '<b>Share</b> via EMail' }
+     ],
+     titleText: 'Compartir',
+     cancelText: 'Cancelar',
+     cancel: function() {
+          // add cancel code..
+        },
+     buttonClicked: function(index, $scope) {
+       if(index==0) {
+         //Twitter
+         //alert('tw');
+         $cordovaSocialSharing.shareViaTwitter($scope.post.comentario, $scope.post.myPic, null);
+       }
+       if(index==1) {
+        //Facebook
+        //alert('via FB');
+        $cordovaSocialSharing.shareViaFacebook(
+        $scope.post.comentario,
+        null,
+        null);
+       }
+       if(index==3) {
+        //Email
+        //alert('via email');
+        $cordovaSocialSharing.shareViaEmail($scope.post.comentario, 'Nota de Bitácora',null, null, null, $scope.post.myPic)
+        //$cordovaSocialSharing.shareViaEmail($scope.post.comentario, 'Nota de Bitácora', null);
+       }
+       return true;
+     }
+     /*
+     ,
+     destructiveButtonClicked: function() {
+       alert("Hey All");
+       return true;
+     }
+     */
+   });
+
+   // For example's sake, hide the sheet after two seconds
+   $timeout(function() {
+     hideSheet();
+   }, 2000);
+
+ };
+
+
+/*
+
+ $scope.shareAla = function() {
+    var options = {
+        'title': 'What do you want with this image?',
+        'buttonLabels': ['Share via Facebook', 'Share via Twitter'],
+        'addCancelButtonWithLabel': 'Cancel',
+        'position': [20, 40] // for iPad pass in the [x, y] position of the popover
+    };
+    // Depending on the buttonIndex, you can now call shareViaFacebook or shareViaTwitter
+    // of the SocialSharing plugin (https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
+    window.plugins.actionsheet.show(options, callback);
+  };
+  */
+
+
+ /******/
+
+
+
+
 
 
   $timeout(function() {
@@ -367,10 +473,9 @@ angular.module('bit.controllers', [])
       }
     });
 
-
-
   })
 
+/*
 .directive('map', function() {
   return {
     restrict: 'E',
@@ -379,20 +484,9 @@ angular.module('bit.controllers', [])
     },
     link: function ($scope, $element, $attr) {
       function initialize() {
-        var mapOptions = {
-          center: new google.maps.LatLng(43.07493, -89.381388),
-          zoom: 16,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map($element[0], mapOptions);
-  
-        $scope.onCreate({map: map});
+       
+      $scope.onCreate({map: map});
 
-        // Stop the side bar from dragging when mousedown/tapdown on the map
-        google.maps.event.addDomListener($element[0], 'mousedown', function (e) {
-          e.preventDefault();
-          return false;
-        });
       }
 
       if (document.readyState === "complete") {
@@ -402,7 +496,8 @@ angular.module('bit.controllers', [])
       }
     }
   }
-});
+});*/
+
 
 
 

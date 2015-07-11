@@ -16,9 +16,9 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
+  <feature name="SocialSharing">
+  <param name="ios-package" value="SocialSharing" />
+</feature>
   <feature name="SocialSharing">
   <param name="ios-package" value="SocialSharing" />
 </feature>

@@ -194,3 +194,204 @@
 2015-07-06 16:26:02.574 bitApp[5879:96013] jjjj
 2015-07-06 16:26:02.575 bitApp[5879:96017] Camera.getPicture: source type 1 not available.
 2015-07-06 16:30:31.501 bitApp[5879:98194] Terminating since there is no system app.
+2015-07-11 02:36:59.603 bitApp[5178:166539] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/2654D3F3-28B6-4DD7-8C80-00863861F689/Library/Cookies/Cookies.binarycookies
+2015-07-11 02:37:00.176 bitApp[5178:166539] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 02:37:00.176 bitApp[5178:166539] Multi-tasking -> Device: YES, App: YES
+2015-07-11 02:37:00.203 bitApp[5178:166539] Unlimited access to network resources
+2015-07-11 02:37:01.574 bitApp[5178:166539] [CDVTimer][keyboard] 0.108004ms
+2015-07-11 02:37:01.978 bitApp[5178:166539] [CDVTimer][splashscreen] 404.721975ms
+2015-07-11 02:37:02.018 bitApp[5178:166539] [CDVTimer][file] 39.048016ms
+2015-07-11 02:37:02.114 bitApp[5178:166539] [CDVTimer][socialsharing] 96.673965ms
+2015-07-11 02:37:02.115 bitApp[5178:166539] [CDVTimer][TotalPluginStartup] 541.307032ms
+2015-07-11 02:37:02.280 bitApp[5178:166539] Resetting plugins due to page load.
+2015-07-11 02:37:03.509 bitApp[5178:166539] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/545C6E51-D61E-4258-9394-489F7C852E40/bitApp.app/www/index.html#/
+2015-07-11 02:41:42.203 bitApp[5178:166539] THREAD WARNING: ['SocialSharing'] took '274.145996' ms. Plugin should use a background thread.
+2015-07-11 02:41:57.779 bitApp[5178:168812] plugin com.apple.share.Facebook.post invalidated
+2015-07-11 02:43:52.253 bitApp[6380:171640] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/F46496F5-9096-4663-9455-D525718B9872/Library/Cookies/Cookies.binarycookies
+2015-07-11 02:43:52.579 bitApp[6380:171640] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 02:43:52.579 bitApp[6380:171640] Multi-tasking -> Device: YES, App: YES
+2015-07-11 02:43:52.680 bitApp[6380:171640] Unlimited access to network resources
+2015-07-11 02:43:53.300 bitApp[6380:171640] [CDVTimer][keyboard] 0.057995ms
+2015-07-11 02:43:53.315 bitApp[6380:171640] [CDVTimer][splashscreen] 14.711022ms
+2015-07-11 02:43:53.317 bitApp[6380:171640] [CDVTimer][file] 2.461970ms
+2015-07-11 02:43:53.357 bitApp[6380:171640] [CDVTimer][socialsharing] 39.835989ms
+2015-07-11 02:43:53.357 bitApp[6380:171640] [CDVTimer][TotalPluginStartup] 57.774007ms
+2015-07-11 02:43:53.424 bitApp[6380:171640] Resetting plugins due to page load.
+2015-07-11 02:43:54.715 bitApp[6380:171640] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/FBE43E02-370D-49F9-89E4-E9ECCADEBB09/bitApp.app/www/index.html#/
+2015-07-11 02:44:02.780 bitApp[6380:171640] THREAD WARNING: ['SocialSharing'] took '159.790039' ms. Plugin should use a background thread.
+2015-07-11 02:44:12.989 bitApp[6380:171640] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7b6cb8a0 {Message=Service Connection Interrupted}
+2015-07-11 02:44:12.992 bitApp[6380:171640] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7cbcbb70 {Message=Service Connection Interrupted}
+2015-07-11 02:47:55.909 bitApp[7545:175005] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/12A11A9F-1D2B-4925-BC6B-E966734441A6/Library/Cookies/Cookies.binarycookies
+2015-07-11 02:47:56.043 bitApp[7545:175005] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 02:47:56.044 bitApp[7545:175005] Multi-tasking -> Device: YES, App: YES
+2015-07-11 02:47:56.056 bitApp[7545:175005] Unlimited access to network resources
+2015-07-11 02:47:56.154 bitApp[7545:175005] [CDVTimer][keyboard] 0.055969ms
+2015-07-11 02:47:56.165 bitApp[7545:175005] [CDVTimer][splashscreen] 10.544002ms
+2015-07-11 02:47:56.167 bitApp[7545:175005] [CDVTimer][file] 2.681017ms
+2015-07-11 02:47:56.210 bitApp[7545:175005] [CDVTimer][socialsharing] 42.105973ms
+2015-07-11 02:47:56.210 bitApp[7545:175005] [CDVTimer][TotalPluginStartup] 56.029022ms
+2015-07-11 02:47:56.299 bitApp[7545:175005] Resetting plugins due to page load.
+2015-07-11 02:47:56.803 bitApp[7545:175005] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/CC42D7B4-C4BD-47F0-B079-1B70C2D10763/bitApp.app/www/index.html#/
+2015-07-11 02:52:35.111 bitApp[7545:175005] Unknown activity items supplied: (
+    "<null>"
+)
+2015-07-11 02:52:35.141 bitApp[7545:175005] THREAD WARNING: ['SocialSharing'] took '32.107178' ms. Plugin should use a background thread.
+2015-07-11 02:52:41.010 bitApp[7545:175005] Unknown activity items supplied: (
+    "<null>"
+)
+2015-07-11 02:52:41.025 bitApp[7545:175005] THREAD WARNING: ['SocialSharing'] took '15.645752' ms. Plugin should use a background thread.
+2015-07-11 02:54:47.051 bitApp[8729:179211] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/FF670148-B530-417E-93FF-CD60B03E40AD/Library/Cookies/Cookies.binarycookies
+2015-07-11 02:54:47.176 bitApp[8729:179211] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 02:54:47.176 bitApp[8729:179211] Multi-tasking -> Device: YES, App: YES
+2015-07-11 02:54:47.179 bitApp[8729:179211] Unlimited access to network resources
+2015-07-11 02:54:47.334 bitApp[8729:179211] [CDVTimer][keyboard] 0.088036ms
+2015-07-11 02:54:47.347 bitApp[8729:179211] [CDVTimer][splashscreen] 12.719035ms
+2015-07-11 02:54:47.350 bitApp[8729:179211] [CDVTimer][file] 2.735019ms
+2015-07-11 02:54:47.395 bitApp[8729:179211] [CDVTimer][socialsharing] 45.506001ms
+2015-07-11 02:54:47.395 bitApp[8729:179211] [CDVTimer][TotalPluginStartup] 61.892033ms
+2015-07-11 02:54:47.467 bitApp[8729:179211] Resetting plugins due to page load.
+2015-07-11 02:54:47.990 bitApp[8729:179211] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/656EB3EB-A3DE-4F94-AEF9-A3480700D3B1/bitApp.app/www/index.html#/
+2015-07-11 02:54:56.613 bitApp[8729:179211] THREAD WARNING: ['SocialSharing'] took '53.498047' ms. Plugin should use a background thread.
+2015-07-11 02:55:05.415 bitApp[8729:179211] <MFMailComposeRemoteViewController: 0x7b86a200> timed out waiting for fence barrier from com.apple.MailCompositionService
+2015-07-11 02:55:05.925 bitApp[8729:179211] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7a00fac0 {Message=Service Connection Interrupted}
+2015-07-11 02:55:05.931 bitApp[8729:179211] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7a00fd70 {Message=Service Connection Interrupted}
+2015-07-11 02:55:08.886 bitApp[8729:179211] THREAD WARNING: ['SocialSharing'] took '14.370850' ms. Plugin should use a background thread.
+2015-07-11 02:55:12.972 bitApp[8729:179211] <MFMailComposeRemoteViewController: 0x7a884000> timed out waiting for fence barrier from com.apple.MailCompositionService
+2015-07-11 02:55:12.979 bitApp[8729:179211] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7a0b8ae0 {Message=Service Connection Interrupted}
+2015-07-11 02:56:28.244 bitApp[9881:182077] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/2FD6849C-A8AC-441F-9A57-13CDEDE21C32/Library/Cookies/Cookies.binarycookies
+2015-07-11 02:56:28.368 bitApp[9881:182077] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 02:56:28.369 bitApp[9881:182077] Multi-tasking -> Device: YES, App: YES
+2015-07-11 02:56:28.385 bitApp[9881:182077] Unlimited access to network resources
+2015-07-11 02:56:28.499 bitApp[9881:182077] [CDVTimer][keyboard] 0.104010ms
+2015-07-11 02:56:28.512 bitApp[9881:182077] [CDVTimer][splashscreen] 12.404025ms
+2015-07-11 02:56:28.515 bitApp[9881:182077] [CDVTimer][file] 3.342986ms
+2015-07-11 02:56:28.559 bitApp[9881:182077] [CDVTimer][socialsharing] 43.905973ms
+2015-07-11 02:56:28.559 bitApp[9881:182077] [CDVTimer][TotalPluginStartup] 60.570955ms
+2015-07-11 02:56:28.636 bitApp[9881:182077] Resetting plugins due to page load.
+2015-07-11 02:56:29.301 bitApp[9881:182077] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/86F813ED-B3C6-4921-89EB-43D360AEF14F/bitApp.app/www/index.html#/
+2015-07-11 02:56:38.646 bitApp[9881:182077] THREAD WARNING: ['SocialSharing'] took '74.831055' ms. Plugin should use a background thread.
+2015-07-11 02:59:05.428 bitApp[11071:184958] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/3F5F1338-231E-4109-A5C7-8D075ECFA4AB/Library/Cookies/Cookies.binarycookies
+2015-07-11 02:59:05.557 bitApp[11071:184958] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 02:59:05.557 bitApp[11071:184958] Multi-tasking -> Device: YES, App: YES
+2015-07-11 02:59:05.559 bitApp[11071:184958] Unlimited access to network resources
+2015-07-11 02:59:05.670 bitApp[11071:184958] [CDVTimer][keyboard] 0.086963ms
+2015-07-11 02:59:05.683 bitApp[11071:184958] [CDVTimer][splashscreen] 12.943983ms
+2015-07-11 02:59:05.687 bitApp[11071:184958] [CDVTimer][file] 3.267050ms
+2015-07-11 02:59:05.734 bitApp[11071:184958] [CDVTimer][socialsharing] 46.673954ms
+2015-07-11 02:59:05.734 bitApp[11071:184958] [CDVTimer][TotalPluginStartup] 63.847005ms
+2015-07-11 02:59:05.825 bitApp[11071:184958] Resetting plugins due to page load.
+2015-07-11 02:59:06.327 bitApp[11071:184958] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/3CEB1D4C-DC63-4CAE-815F-B03C7D3B88C2/bitApp.app/www/index.html#/
+2015-07-11 02:59:22.558 bitApp[11071:184958] THREAD WARNING: ['SocialSharing'] took '67.177002' ms. Plugin should use a background thread.
+2015-07-11 02:59:26.882 bitApp[11071:184958] <MFMailComposeRemoteViewController: 0x7b26f200> timed out waiting for fence barrier from com.apple.MailCompositionService
+2015-07-11 02:59:27.391 bitApp[11071:184958] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x79805ae0 {Message=Service Connection Interrupted}
+2015-07-11 02:59:27.402 bitApp[11071:184958] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x798dc9c0 {Message=Service Connection Interrupted}
+2015-07-11 03:03:42.590 bitApp[11648:187589] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/69ED8D5D-2EB0-4009-ADA9-D51776A608FC/Library/Cookies/Cookies.binarycookies
+2015-07-11 03:03:42.709 bitApp[11648:187589] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 03:03:42.710 bitApp[11648:187589] Multi-tasking -> Device: YES, App: YES
+2015-07-11 03:03:42.724 bitApp[11648:187589] Unlimited access to network resources
+2015-07-11 03:03:42.826 bitApp[11648:187589] [CDVTimer][keyboard] 0.102997ms
+2015-07-11 03:03:42.836 bitApp[11648:187589] [CDVTimer][splashscreen] 10.116041ms
+2015-07-11 03:03:42.838 bitApp[11648:187589] [CDVTimer][file] 1.675010ms
+2015-07-11 03:03:42.881 bitApp[11648:187589] [CDVTimer][socialsharing] 42.766988ms
+2015-07-11 03:03:42.881 bitApp[11648:187589] [CDVTimer][TotalPluginStartup] 55.382967ms
+2015-07-11 03:03:42.961 bitApp[11648:187589] Resetting plugins due to page load.
+2015-07-11 03:03:43.559 bitApp[11648:187589] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/A0C5B831-1B37-468B-979C-2AE343568F77/bitApp.app/www/index.html#/
+2015-07-11 03:10:01.476 bitApp[11648:187589] THREAD WARNING: ['SocialSharing'] took '70.239014' ms. Plugin should use a background thread.
+2015-07-11 03:10:07.349 bitApp[11648:187589] THREAD WARNING: ['SocialSharing'] took '38.707275' ms. Plugin should use a background thread.
+2015-07-11 03:10:11.867 bitApp[11648:187589] <MFMailComposeRemoteViewController: 0x7d183400> timed out waiting for fence barrier from com.apple.MailCompositionService
+2015-07-11 03:10:12.375 bitApp[11648:187589] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7b8cd6d0 {Message=Service Connection Interrupted}
+2015-07-11 03:10:12.387 bitApp[11648:187589] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7b8da110 {Message=Service Connection Interrupted}
+2015-07-11 03:18:02.790 bitApp[12921:194260] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/4307E90F-135E-4345-A849-B3C5FC8C981E/Library/Cookies/Cookies.binarycookies
+2015-07-11 03:18:02.902 bitApp[12921:194260] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 03:18:02.903 bitApp[12921:194260] Multi-tasking -> Device: YES, App: YES
+2015-07-11 03:18:02.919 bitApp[12921:194260] Unlimited access to network resources
+2015-07-11 03:18:03.026 bitApp[12921:194260] [CDVTimer][keyboard] 8.758962ms
+2015-07-11 03:18:03.036 bitApp[12921:194260] [CDVTimer][splashscreen] 9.902000ms
+2015-07-11 03:18:03.039 bitApp[12921:194260] [CDVTimer][file] 2.867043ms
+2015-07-11 03:18:03.080 bitApp[12921:194260] [CDVTimer][socialsharing] 40.489018ms
+2015-07-11 03:18:03.080 bitApp[12921:194260] [CDVTimer][TotalPluginStartup] 62.596023ms
+2015-07-11 03:18:03.142 bitApp[12921:194260] Resetting plugins due to page load.
+2015-07-11 03:18:03.882 bitApp[12921:194260] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/E4440624-5021-462B-8541-9420A12B6E54/bitApp.app/www/index.html#/
+2015-07-11 03:18:13.797 bitApp[12921:194260] THREAD WARNING: ['SocialSharing'] took '85.402100' ms. Plugin should use a background thread.
+2015-07-11 03:18:19.506 bitApp[12921:194260] THREAD WARNING: ['SocialSharing'] took '40.491943' ms. Plugin should use a background thread.
+2015-07-11 03:28:16.924 bitApp[14148:199828] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/67CB1258-A81A-4C27-A388-984229603DED/Library/Cookies/Cookies.binarycookies
+2015-07-11 03:28:17.052 bitApp[14148:199828] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 03:28:17.052 bitApp[14148:199828] Multi-tasking -> Device: YES, App: YES
+2015-07-11 03:28:17.055 bitApp[14148:199828] Unlimited access to network resources
+2015-07-11 03:28:17.164 bitApp[14148:199828] [CDVTimer][keyboard] 0.075042ms
+2015-07-11 03:28:17.180 bitApp[14148:199828] [CDVTimer][splashscreen] 15.586972ms
+2015-07-11 03:28:17.183 bitApp[14148:199828] [CDVTimer][file] 2.849996ms
+2015-07-11 03:28:17.229 bitApp[14148:199828] [CDVTimer][socialsharing] 46.472013ms
+2015-07-11 03:28:17.230 bitApp[14148:199828] [CDVTimer][TotalPluginStartup] 65.832973ms
+2015-07-11 03:28:17.326 bitApp[14148:199828] Resetting plugins due to page load.
+2015-07-11 03:28:18.006 bitApp[14148:199828] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/75DA7765-A36F-48CC-AD90-1CFC3F3B2299/bitApp.app/www/index.html#/
+2015-07-11 03:28:35.058 bitApp[14148:199828] THREAD WARNING: ['SocialSharing'] took '83.337891' ms. Plugin should use a background thread.
+2015-07-11 03:29:17.765 bitApp[14148:199828] THREAD WARNING: ['SocialSharing'] took '36.773193' ms. Plugin should use a background thread.
+2015-07-11 03:38:57.599 bitApp[16498:206904] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/FC0C032C-5DC8-410E-87E9-25C67CB6D9CB/Library/Cookies/Cookies.binarycookies
+2015-07-11 03:38:57.728 bitApp[16498:206904] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 03:38:57.728 bitApp[16498:206904] Multi-tasking -> Device: YES, App: YES
+2015-07-11 03:38:57.731 bitApp[16498:206904] Unlimited access to network resources
+2015-07-11 03:38:57.837 bitApp[16498:206904] [CDVTimer][keyboard] 0.088036ms
+2015-07-11 03:38:57.850 bitApp[16498:206904] [CDVTimer][splashscreen] 13.607979ms
+2015-07-11 03:38:57.852 bitApp[16498:206904] [CDVTimer][file] 1.797974ms
+2015-07-11 03:38:57.901 bitApp[16498:206904] [CDVTimer][socialsharing] 48.640013ms
+2015-07-11 03:38:57.901 bitApp[16498:206904] [CDVTimer][TotalPluginStartup] 64.828992ms
+2015-07-11 03:38:57.991 bitApp[16498:206904] Resetting plugins due to page load.
+2015-07-11 03:38:58.731 bitApp[16498:206904] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/D757EBC7-15E1-4E28-A8A7-312D9856BD0D/bitApp.app/www/index.html
+2015-07-11 04:23:22.409 bitApp[18437:222007] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/538371E3-1B12-4B5E-B917-F5641F2A6C2D/Library/Cookies/Cookies.binarycookies
+2015-07-11 04:23:22.709 bitApp[18437:222007] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 04:23:22.710 bitApp[18437:222007] Multi-tasking -> Device: YES, App: YES
+2015-07-11 04:23:22.752 bitApp[18437:222007] Unlimited access to network resources
+2015-07-11 04:23:22.999 bitApp[18437:222007] [CDVTimer][keyboard] 0.406027ms
+2015-07-11 04:23:23.098 bitApp[18437:222007] [CDVTimer][splashscreen] 98.279953ms
+2015-07-11 04:23:23.109 bitApp[18437:222007] [CDVTimer][file] 10.731995ms
+2015-07-11 04:23:23.213 bitApp[18437:222007] [CDVTimer][socialsharing] 104.274035ms
+2015-07-11 04:23:23.214 bitApp[18437:222007] [CDVTimer][TotalPluginStartup] 215.449035ms
+2015-07-11 04:23:23.307 bitApp[18437:222007] Resetting plugins due to page load.
+2015-07-11 04:23:24.056 bitApp[18437:222007] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/ACE30D2E-9201-4D3C-99BE-18B5DAE4F0DF/bitApp.app/www/index.html#/
+2015-07-11 04:23:27.178 bitApp[18437:222007] THREAD WARNING: ['File'] took '67.746826' ms. Plugin should use a background thread.
+2015-07-11 04:24:55.783 bitApp[18437:222007] THREAD WARNING: ['SocialSharing'] took '582.318848' ms. Plugin should use a background thread.
+2015-07-11 04:25:59.191 bitApp[19606:224964] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/6B3729E7-4EE0-472A-A6ED-7E974F617C2B/Library/Cookies/Cookies.binarycookies
+2015-07-11 04:25:59.341 bitApp[19606:224964] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 04:25:59.342 bitApp[19606:224964] Multi-tasking -> Device: YES, App: YES
+2015-07-11 04:25:59.345 bitApp[19606:224964] Unlimited access to network resources
+2015-07-11 04:25:59.464 bitApp[19606:224964] [CDVTimer][keyboard] 0.088990ms
+2015-07-11 04:25:59.480 bitApp[19606:224964] [CDVTimer][splashscreen] 16.046047ms
+2015-07-11 04:25:59.483 bitApp[19606:224964] [CDVTimer][file] 2.703011ms
+2015-07-11 04:25:59.533 bitApp[19606:224964] [CDVTimer][socialsharing] 49.528003ms
+2015-07-11 04:25:59.533 bitApp[19606:224964] [CDVTimer][TotalPluginStartup] 69.194019ms
+2015-07-11 04:25:59.632 bitApp[19606:224964] Resetting plugins due to page load.
+2015-07-11 04:26:00.382 bitApp[19606:224964] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/45FD3CEC-A3BC-4A12-9BFF-ACCA4F17A635/bitApp.app/www/index.html#/
+2015-07-11 04:45:44.482 bitApp[20901:233906] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/0A4FB69E-329F-40E6-B60F-C54D4CB0DEDE/Library/Cookies/Cookies.binarycookies
+2015-07-11 04:45:44.580 bitApp[20901:233906] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 04:45:44.581 bitApp[20901:233906] Multi-tasking -> Device: YES, App: YES
+2015-07-11 04:45:44.603 bitApp[20901:233906] Unlimited access to network resources
+2015-07-11 04:45:44.692 bitApp[20901:233906] [CDVTimer][keyboard] 0.060022ms
+2015-07-11 04:45:44.702 bitApp[20901:233906] [CDVTimer][splashscreen] 9.914041ms
+2015-07-11 04:45:44.705 bitApp[20901:233906] [CDVTimer][file] 2.488971ms
+2015-07-11 04:45:44.757 bitApp[20901:233906] [CDVTimer][socialsharing] 51.953971ms
+2015-07-11 04:45:44.757 bitApp[20901:233906] [CDVTimer][TotalPluginStartup] 65.118968ms
+2015-07-11 04:45:44.824 bitApp[20901:233906] Resetting plugins due to page load.
+2015-07-11 04:45:45.504 bitApp[20901:233906] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/EBBF0648-3A47-4749-A2BE-3545DFDD104D/bitApp.app/www/index.html#/
+2015-07-11 04:54:09.087 bitApp[22108:238846] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/B8655CD5-F4D5-4A42-9009-72F3509C1DF2/Library/Cookies/Cookies.binarycookies
+2015-07-11 04:54:09.218 bitApp[22108:238846] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 04:54:09.218 bitApp[22108:238846] Multi-tasking -> Device: YES, App: YES
+2015-07-11 04:54:09.236 bitApp[22108:238846] Unlimited access to network resources
+2015-07-11 04:54:09.361 bitApp[22108:238846] [CDVTimer][keyboard] 0.131011ms
+2015-07-11 04:54:09.377 bitApp[22108:238846] [CDVTimer][splashscreen] 15.843987ms
+2015-07-11 04:54:09.380 bitApp[22108:238846] [CDVTimer][file] 2.753019ms
+2015-07-11 04:54:09.442 bitApp[22108:238846] [CDVTimer][socialsharing] 62.245011ms
+2015-07-11 04:54:09.442 bitApp[22108:238846] [CDVTimer][TotalPluginStartup] 81.878960ms
+2015-07-11 04:54:09.518 bitApp[22108:238846] Resetting plugins due to page load.
+2015-07-11 04:54:10.132 bitApp[22108:238846] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/573A615C-98A4-4829-89AB-E04EE03C1990/bitApp.app/www/index.html#/
+2015-07-11 05:05:02.179 bitApp[24984:246793] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/595D6A8A-221D-4386-9B64-CBBB5E879310/Library/Cookies/Cookies.binarycookies
+2015-07-11 05:05:02.270 bitApp[24984:246793] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-11 05:05:02.271 bitApp[24984:246793] Multi-tasking -> Device: YES, App: YES
+2015-07-11 05:05:02.286 bitApp[24984:246793] Unlimited access to network resources
+2015-07-11 05:05:02.381 bitApp[24984:246793] [CDVTimer][keyboard] 0.055015ms
+2015-07-11 05:05:02.397 bitApp[24984:246793] [CDVTimer][splashscreen] 15.978992ms
+2015-07-11 05:05:02.401 bitApp[24984:246793] [CDVTimer][file] 3.448009ms
+2015-07-11 05:05:02.450 bitApp[24984:246793] [CDVTimer][socialsharing] 48.618972ms
+2015-07-11 05:05:02.450 bitApp[24984:246793] [CDVTimer][TotalPluginStartup] 68.903983ms
+2015-07-11 05:05:02.514 bitApp[24984:246793] Resetting plugins due to page load.
+2015-07-11 05:05:03.098 bitApp[24984:246793] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/CF8B9EE4-2DD9-4C90-A057-61B62FF0E953/bitApp.app/www/index.html#/

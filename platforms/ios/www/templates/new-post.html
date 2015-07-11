@@ -1,32 +1,41 @@
 <div class="modal">
 
   <!-- Modal header bar -->
-  <ion-header-bar class="bar-secondary">
-    <h1 class="title">Nuevo Post</h1>
-    <button class="button button-clear button-positive" ng-click="closeNewPost()">Cancel</button>
+  <ion-header-bar class="bar-positive">
+    <a class="button" ng-click="closeNewPost()">Cancelar</a>
+    <h1 class="title">Nueva</h1>
   </ion-header-bar>
-
   <!-- Modal content area -->
-  <ion-content>
-    <form name="postForm" ng-submit="createPost(post)">
+
+    
+    <form name="postForm" ng-submit="createPost(post)" >
+      <ion-content has-bouncing="true">
+      
       <div class="padding">
-      <div class="form-group" ng-class="{ 'has-error' : postForm.comentario.$invalid}">
-          <textarea name="comentario" class="form-control"  placeholder="Nueva nota..." 
-          rows="4"  ng-model="post.comentario" minlength="3" ng-maxlength="200" >
-          </textarea>
-          <p ng-show="postForm.comentario.$error.minlength" class="help-block">
-            Error: mínimo 3 caracteres.</p>
-          <p ng-show="postForm.comentario.$error.maxlength" class="help-block">
-            Error: máximo 200 caracteres.</p>
-      </div>
-      <img ng-src="{{imageURI}}" style="width: 100%">
+
+          <div class="form-group" ng-class="{ 'has-error' : postForm.comentario.$invalid}">
+            <textarea name="comentario" class="form-control"  placeholder="Nueva nota..." 
+            rows="4"  ng-trim="false" ng-model="post.comentario" maxlength="20">
+            </textarea>
+            <p ng-show="postForm.comentario.$error.maxlength" class="help-block">
+              Error: máximo 200 caracteres.</p>
+            <div ng-class="{red: post.comentario.length >200, grey: post.comentario.length <= 199}">{{post.comentario.length}}/200</div>
+            
+        </div>
+        <input type=hidden name="myPic" ng-model="post.myPic" value="{{imageURI}}">
+        <img ng-init="imageBlank()" ng-src="{{imageURI}}" style="width: 100%">
+      
       </div>
       <div class="padding">
-       <!--  -->
-        <button  class="button button-block button-balanced" ng-click="addPhoto()">Agregar Imagen</button> 
-        <button type="submit" class="button button-block button-positive">Crear</button>
+        <span  class="button button-block button-balanced" ng-click="addPhoto();">
+          <div class="add">
+            <i class="icon ion-image"></i>
+          </div>
+        </span>
+        <button type="submit" ng-disabled="postForm.$invalid"  class="button button-block button-positive">Crear</button>
       </div>
-    </form>
-  </ion-content>
+
+        </ion-content>
+    </form> 
 
 </div>
