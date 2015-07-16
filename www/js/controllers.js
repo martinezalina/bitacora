@@ -1,5 +1,16 @@
 angular.module('bit.controllers', [])
-.controller('bitacoraCtrl', function($scope, $ionicModal, Bitacora, Camera, $ionicSideMenuDelegate, $timeout, $ionicPopup, $ionicActionSheet,  $ionicLoading, $compile, $cordovaSocialSharing) {
+.controller('bitacoraCtrl', function(
+  $scope,
+  $ionicModal,
+  Bitacora,
+  Camera,
+  $ionicSideMenuDelegate,
+  $timeout,
+  $ionicPopup,
+  $ionicActionSheet,
+  $ionicLoading,
+  $compile,
+  $cordovaSocialSharing) {
  
   // new post
   $ionicModal.fromTemplateUrl('templates/new-post.html', function(modal) {
@@ -162,7 +173,7 @@ angular.module('bit.controllers', [])
   };
 
   $scope.imageBlank = function(){
-    $scope.imageURI = "";
+    $scope.imageURI = "./";
   };
 
 
@@ -409,14 +420,14 @@ angular.module('bit.controllers', [])
      buttons: [
        { text: '<b>Share</b> via Twitter' },
        { text: '<b>Share</b> via Facebook' },
-       { text: '<b>Share</b> via eMail' }
+       { text: '<b>Share</b> via Email' }
      ],
      titleText: 'Compartir',
      cancelText: 'Cancelar',
      cancel: function() {
           // add cancel code..
         },
-     buttonClicked: function(index, $scope) {
+     buttonClicked: function(index, $scope, $cordovaSocialSharing) {
        if(index==0) {
          //Twitter
          //alert('tw');
@@ -437,12 +448,20 @@ angular.module('bit.controllers', [])
         $scope.post.myPic,
         null);
        }
+       if(index==2) {
+        //Email
+        //alert('via email');
+        $scope.shareAnywhere();
+
+       }
+       /*
        if(index==3) {
         //Email
         //alert('via email');
         $cordovaSocialSharing.shareViaEmail($scope.post.comentario, 'Nota de Bitácora',null, null, null, $scope.post.myPic)
         //$cordovaSocialSharing.shareViaEmail($scope.post.comentario, 'Nota de Bitácora', null);
        }
+       */
        return true;
      }
      /*
@@ -479,9 +498,6 @@ angular.module('bit.controllers', [])
 
 
  /******/
-
-
-
 
 
 

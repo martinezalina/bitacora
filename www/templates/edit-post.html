@@ -13,7 +13,7 @@
 
           <div class="form-group" ng-class="{ 'has-error' : postForm.comentario.$invalid}">
             <textarea name="comentario" class="form-control"  placeholder="Nueva nota..." 
-            rows="4"  ng-trim="false" ng-model="post.comentario" maxlength="20">
+            rows="4"  ng-trim="false" ng-model="post.comentario" maxlength="200">
             </textarea>
             <p ng-show="postForm.comentario.$error.maxlength" class="help-block">
               Error: máximo 200 caracteres.</p>
