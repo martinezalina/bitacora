@@ -8,7 +8,7 @@
   <!-- Modal content area -->
 
     
-    <form name="postForm" ng-submit="createPost(post)" ng-init="imageBlank()">
+    <form name="postForm" ng-submit="createPost(post)" data-ng-init="getUbicacion()">
       <ion-content has-bouncing="true">
       
       <div class="padding">
@@ -23,7 +23,7 @@
             
         </div>
         <input type=hidden name="myPic" ng-model="post.myPic" value="{{imageURI}}">
-        <!-- <img ng-src="{{imageURI}}" style="width: 100%;"> -->
+        <img ng-src="{{imageURI}}" style="width: 100%;">
       
       </div>
       <div class="padding">

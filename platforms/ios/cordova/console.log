@@ -395,3 +395,70 @@
 2015-07-11 05:05:02.450 bitApp[24984:246793] [CDVTimer][TotalPluginStartup] 68.903983ms
 2015-07-11 05:05:02.514 bitApp[24984:246793] Resetting plugins due to page load.
 2015-07-11 05:05:03.098 bitApp[24984:246793] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/CF8B9EE4-2DD9-4C90-A057-61B62FF0E953/bitApp.app/www/index.html#/
+2015-07-16 12:43:19.325 bitApp[2053:28170] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/6C2F4DE8-6767-43CB-BA5C-5D29D9CA145D/Library/Cookies/Cookies.binarycookies
+2015-07-16 12:43:19.883 bitApp[2053:28170] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-16 12:43:19.884 bitApp[2053:28170] Multi-tasking -> Device: YES, App: YES
+2015-07-16 12:43:19.954 bitApp[2053:28170] Unlimited access to network resources
+2015-07-16 12:43:21.361 bitApp[2053:28170] [CDVTimer][keyboard] 8.596957ms
+2015-07-16 12:43:21.661 bitApp[2053:28170] [CDVTimer][splashscreen] 299.113989ms
+2015-07-16 12:43:21.699 bitApp[2053:28170] [CDVTimer][file] 38.147986ms
+2015-07-16 12:43:21.773 bitApp[2053:28170] [CDVTimer][socialsharing] 74.127018ms
+2015-07-16 12:43:21.774 bitApp[2053:28170] [CDVTimer][TotalPluginStartup] 420.781970ms
+2015-07-16 12:43:21.940 bitApp[2053:28170] Resetting plugins due to page load.
+2015-07-16 12:43:23.102 bitApp[2053:28170] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/A65BD673-2938-4654-8055-96A6CA9600B5/bitApp.app/www/index.html#/
+2015-07-16 12:44:41.009 bitApp[2668:29781] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/E6CC5433-A14B-4F95-99E9-C54E86DD158B/Library/Cookies/Cookies.binarycookies
+2015-07-16 12:44:41.131 bitApp[2668:29781] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-16 12:44:41.132 bitApp[2668:29781] Multi-tasking -> Device: YES, App: YES
+2015-07-16 12:44:41.134 bitApp[2668:29781] Unlimited access to network resources
+2015-07-16 12:44:41.223 bitApp[2668:29781] [CDVTimer][keyboard] 0.052989ms
+2015-07-16 12:44:41.235 bitApp[2668:29781] [CDVTimer][splashscreen] 12.019992ms
+2015-07-16 12:44:41.237 bitApp[2668:29781] [CDVTimer][file] 1.892984ms
+2015-07-16 12:44:41.270 bitApp[2668:29781] [CDVTimer][socialsharing] 33.407986ms
+2015-07-16 12:44:41.271 bitApp[2668:29781] [CDVTimer][TotalPluginStartup] 48.013985ms
+2015-07-16 12:44:41.344 bitApp[2668:29781] Resetting plugins due to page load.
+2015-07-16 12:44:41.787 bitApp[2668:29781] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/9F2F3A20-6065-468D-B07F-4E5B8D76F999/bitApp.app/www/index.html#/
+2015-07-16 12:47:07.695 bitApp[3242:31478] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Data/Application/22EFD996-98C9-459D-81B3-953AA00C82CA/Library/Cookies/Cookies.binarycookies
+2015-07-16 12:47:07.834 bitApp[3242:31478] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-16 12:47:07.835 bitApp[3242:31478] Multi-tasking -> Device: YES, App: YES
+2015-07-16 12:47:07.837 bitApp[3242:31478] Unlimited access to network resources
+2015-07-16 12:47:07.955 bitApp[3242:31478] [CDVTimer][keyboard] 0.091970ms
+2015-07-16 12:47:07.968 bitApp[3242:31478] [CDVTimer][splashscreen] 12.753963ms
+2015-07-16 12:47:07.971 bitApp[3242:31478] [CDVTimer][file] 2.174020ms
+2015-07-16 12:47:08.016 bitApp[3242:31478] [CDVTimer][socialsharing] 45.701981ms
+2015-07-16 12:47:08.017 bitApp[3242:31478] [CDVTimer][TotalPluginStartup] 61.493993ms
+2015-07-16 12:47:08.087 bitApp[3242:31478] Resetting plugins due to page load.
+2015-07-16 12:47:08.687 bitApp[3242:31478] Finished load of: file:///Users/martinezalina/Library/Developer/CoreSimulator/Devices/4B5A9D94-0C47-4ECE-86C0-48253076C2E1/data/Containers/Bundle/Application/6CA2D720-798F-402F-915A-B3510B4A53EF/bitApp.app/www/index.html#/
+2015-07-16 12:47:23.695 bitApp[3242:31478] THREAD WARNING: ['SocialSharing'] took '168.240234' ms. Plugin should use a background thread.
+2015-07-16 12:47:30.872 bitApp[3242:31544] bool _WebTryThreadLock(bool), 0x7af6aeb0: Tried to obtain the web lock from a thread other than the main thread or the web thread. This may be a result of calling to UIKit from a secondary thread. Crashing now...
+1   0x592a881 WebThreadLock
+2015-07-16 12:47:30.945 bitApp[3242:31478] viewServiceDidTerminateWithError: Error Domain=_UIViewServiceInterfaceErrorDomain Code=3 "The operation couldn’t be completed. (_UIViewServiceInterfaceErrorDomain error 3.)" UserInfo=0x7b074250 {Message=Service Connection Interrupted}
+2   0x90039d -[UIWebView stringByEvaluatingJavaScriptFromString:]
+3   0x73b68 -[CDVViewController shouldAutorotateToInterfaceOrientation:]
+4   0x2c74b -[MainViewController shouldAutorotateToInterfaceOrientation:]
+5   0x73c98 -[CDVViewController supportedInterfaceOrientations]
+6   0x7a9ab6 -[UIViewController __supportedInterfaceOrientations]
+7   0x79d546 -[UIViewController _preferredInterfaceOrientationGivenStatusBarAndDeviceAndOrientation:]
+8   0x79d795 -[UIViewController _preferredInterfaceOrientationGivenCurrentOrientation:]
+9   0x7a9824 -[UIViewController _preferredInterfaceOrientationForPresentationInWindow:fromInterfaceOrientation:]
+10  0xe0856a -[_UIFullscreenPresentationController _adjustOrientationIfNecessaryInWindow:forViewController:preservingViewController:]
+11  0x769947 -[UIPresentationController _dismissWithAnimationController:interactionController:target:didEndSelector:]
+12  0x7a4c35 -[UIViewController _dismissViewControllerWithAnimationController:interactionController:completion:]
+13  0x7a480e -[UIViewController _dismissViewControllerWithTransition:from:completion:]
+14  0x7a3e23 -[UIViewController dismissViewControllerWithTransition:completion:]
+15  0x7a6447 -[UIViewController dismissViewControllerAnimated:completion:]
+16  0xdf5c19 -[UIActivityViewController _cleanupActivityWithSuccess:items:error:]
+17  0xdf7a11 __45-[UIActivityViewController _performActivity:]_block_invoke
+18  0xde8801 -[UIActivity(UIActivity_Private) activityDidFinish:items:error:]
+19  0xde7e31 -[UIActivity activityDidFinish:]
+20  0xe022e5 -[UIMailActivity mailComposeController:didFinishWithResult:error:]
+21  0x2535cd0 -[MFMailComposeInternalViewController _notifyCompositionDidFinish]
+22  0x2535a58 -[MFMailComposeInternalViewController compositionFinishedWithResult:error:]
+23  0x25358a5 -[MFMailComposeInternalViewController _finishServiceViewControllerRequestWithSuccess:]
+24  0x25356e3 __68-[MFMailComposeInternalViewController _configureRemoteViewContoller]_block_invoke
+25  0x283ec7a __NSXPCCONNECTION_IS_CALLING_OUT_TO_ERROR_BLOCK__
+26  0x2840041 __97-[NSXPCConnection _sendInvocation:proxyNumber:remoteInterface:withErrorHandler:timeout:userInfo:]_block_invoke304
+27  0x3420ae3 _xpc_connection_reply_callout
+28  0x34179d5 _xpc_connection_call_reply
+29  0x3146ecf _dispatch_client_callout
+30  0x312f02e _dispatch_queue_drain
+31  0x312ed33 _dispatch_queue_invoke

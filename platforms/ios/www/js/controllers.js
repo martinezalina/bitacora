@@ -1,5 +1,16 @@
 angular.module('bit.controllers', [])
-.controller('bitacoraCtrl', function($scope, $ionicModal, Bitacora, Camera, $ionicSideMenuDelegate, $timeout, $ionicPopup, $ionicActionSheet,  $ionicLoading, $compile, $cordovaSocialSharing) {
+.controller('bitacoraCtrl', function(
+  $scope,
+  $ionicModal,
+  Bitacora,
+  Camera,
+  $ionicSideMenuDelegate,
+  $timeout,
+  $ionicPopup,
+  $ionicActionSheet,
+  $ionicLoading,
+  $compile,
+  $cordovaSocialSharing) {
  
   // new post
   $ionicModal.fromTemplateUrl('templates/new-post.html', function(modal) {
@@ -162,7 +173,7 @@ angular.module('bit.controllers', [])
   };
 
   $scope.imageBlank = function(){
-    $scope.imageURI = "";
+    $scope.imageURI = "./";
   };
 
 
@@ -379,12 +390,31 @@ angular.module('bit.controllers', [])
   /* Share */
 
   $scope.shareAnywhere = function() {
+    alert('c '+$scope.post.comentario);
+    alert('img '+$scope.post.myPic);
     $cordovaSocialSharing.share($scope.post.comentario, "Bitácora de Viaje", $scope.post.myPic, "");
   }
 
+/*
+<!-- start facebook on iOS (same as `shareViaFacebook`), if Facebook is not installed, the errorcallback will be invoked with message 'not available' -->
+<button onclick="window.plugins.socialsharing.shareVia('com.apple.social.facebook', 'Message via FB', null, null, null, function(){console.log('share ok')}, function(msg) {alert('error: ' + msg)})">message via Facebook</button>
+<!-- start twitter on iOS (same as `shareViaTwitter`), if Twitter is not installed, the errorcallback will be invoked with message 'not available' -->
+<button onclick="window.plugins.socialsharing.shareVia('com.apple.social.twitter', 'Message via Twitter', null, null, 'http://www.x-services.nl', function(){console.log('share ok')}, function(msg) {alert('error: ' + msg)})">message and link via Twitter on iOS</button>
+
+ $scope.whatsappShare=function(){
+    window.plugins.socialsharing.shareViaWhatsApp('Digital Signature Maker', img, "https://play.google.com/store/apps/details?id=com.prantikv.digitalsignaturemaker", null, function(errormsg){alert("Error: Cannot Share")});
+  }
+   $scope.twitterShare=function(){
+    window.plugins.socialsharing.shareViaTwitter('Digital Signature Maker', img, 'https://play.google.com/store/apps/details?id=com.prantikv.digitalsignaturemaker', null, function(errormsg){alert("Error: Cannot Share")});
+  }
+   $scope.OtherShare=function(){
+     window.plugins.socialsharing.share('Digital Signature Maker', null, null, 'https://play.google.com/store/apps/details?id=com.prantikv.digitalsignaturemaker');
+  }
+*/
+
+
 
   /******/
-
 // Triggered on a button click, or some other target
  $scope.shareAla = function() {
    // Show the action sheet
@@ -392,33 +422,48 @@ angular.module('bit.controllers', [])
      buttons: [
        { text: '<b>Share</b> via Twitter' },
        { text: '<b>Share</b> via Facebook' },
-       { text: '<b>Share</b> via EMail' }
+       { text: '<b>Share</b> via Email' }
      ],
      titleText: 'Compartir',
      cancelText: 'Cancelar',
      cancel: function() {
           // add cancel code..
         },
-     buttonClicked: function(index, $scope) {
+     buttonClicked: function(index, $scope, $cordovaSocialSharing) {
        if(index==0) {
          //Twitter
          //alert('tw');
-         $cordovaSocialSharing.shareViaTwitter($scope.post.comentario, $scope.post.myPic, null);
+         $cordovaSocialSharing.shareVia('com.apple.social.twitter', 
+          $scope.post.comentario,
+           null,
+           $scope.post.myPic, 
+          null,
+          function(){console.log('share ok')}, function(msg) {alert('error: ' + msg)});
+
+          //$cordovaSocialSharing.shareViaTwitter($scope.post.comentario, $scope.post.myPic, null);
        }
        if(index==1) {
         //Facebook
         //alert('via FB');
         $cordovaSocialSharing.shareViaFacebook(
         $scope.post.comentario,
-        null,
+        $scope.post.myPic,
         null);
        }
+       if(index==2) {
+        //Email
+        //alert('via email');
+        $scope.shareAnywhere();
+
+       }
+       /*
        if(index==3) {
         //Email
         //alert('via email');
         $cordovaSocialSharing.shareViaEmail($scope.post.comentario, 'Nota de Bitácora',null, null, null, $scope.post.myPic)
         //$cordovaSocialSharing.shareViaEmail($scope.post.comentario, 'Nota de Bitácora', null);
        }
+       */
        return true;
      }
      /*
@@ -455,9 +500,6 @@ angular.module('bit.controllers', [])
 
 
  /******/
-
-
-
 
 
 

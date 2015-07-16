@@ -8,14 +8,14 @@
   <!-- Modal content area -->
 
     
-    <form name="postForm" ng-submit="createPost(post)" >
+    <form name="postForm" ng-submit="createPost(post)" ng-init="imageBlank()">
       <ion-content has-bouncing="true">
       
       <div class="padding">
 
           <div class="form-group" ng-class="{ 'has-error' : postForm.comentario.$invalid}">
             <textarea name="comentario" class="form-control"  placeholder="Nueva nota..." 
-            rows="4"  ng-trim="false" ng-model="post.comentario" maxlength="20">
+            rows="4"  ng-trim="false" ng-model="post.comentario" maxlength="200">
             </textarea>
             <p ng-show="postForm.comentario.$error.maxlength" class="help-block">
               Error: máximo 200 caracteres.</p>
@@ -23,7 +23,7 @@
             
         </div>
         <input type=hidden name="myPic" ng-model="post.myPic" value="{{imageURI}}">
-        <img ng-init="imageBlank()" ng-src="{{imageURI}}" style="width: 100%">
+        <!-- <img ng-src="{{imageURI}}" style="width: 100%;"> -->
       
       </div>
       <div class="padding">

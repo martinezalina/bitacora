@@ -390,6 +390,8 @@ angular.module('bit.controllers', [])
   /* Share */
 
   $scope.shareAnywhere = function() {
+    alert('c '+$scope.post.comentario);
+    alert('img '+$scope.post.myPic);
     $cordovaSocialSharing.share($scope.post.comentario, "Bitácora de Viaje", $scope.post.myPic, "");
   }
 
